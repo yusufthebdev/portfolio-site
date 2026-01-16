@@ -129,6 +129,7 @@ export default function Portfolio() {
             {[
               { name: "Solidity", icon: "◆" },
               { name: "Hardhat", icon: "⚒" },
+              { name: "JavaScript", icon: "JS" },
               { name: "Tailwind CSS", icon: "🎨" },
               { name: "Ethers.js", icon: "⚡" },
               { name: "React.js", icon: "⚛" },

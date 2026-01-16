@@ -14,7 +14,7 @@ export default function Portfolio() {
       tech: ["Solidity", "Hardhat", "Tailwind", "Ethers.js"],
       network: "Base Mainnet",
       demo: "https://candy-token-staking.vercel.app/",
-      repo: "https://gitlab.com/yusufthebdev17/candy-token-staking",
+      repo: "https://github.com/yusufthebdev/candy-token-staking",
       contracts: [
         { name: "CANDYToken", address: "Verified Contract", explorer: "https://basescan.org/address/0xf6682Cf868a238Adb318E88aC5cF1C3c8175dAc8" },
         { name: "CandyStaking", address: "Verified Contract", explorer: "https://basescan.org/address/0x2bd2799c621Cf25b02B4A6403736EA2374eAA431" }
@@ -27,7 +27,7 @@ export default function Portfolio() {
       tech: ["Solidity", "Hardhat", "React", "Ethers.js"],
       network: "Base Mainnet",
       demo: "https://2of3multisigw.vercel.app/",
-      repo: "https://gitlab.com/yusufthebdev17/2of3multisigw",
+      repo: "https://github.com/yusufthebdev/2of3multisigw",
       contracts: [
         { name: "MultiSig", address: "Verified Contract", explorer: "https://basescan.org/address/0xfFDED859...E89e2120d" }
       ]
@@ -39,7 +39,7 @@ export default function Portfolio() {
       tech: ["Solidity", "Hardhat", "React", "IPFS"],
       network: "Base Sepolia",
       demo: "https://nft-marketplace-gaming.vercel.app/",
-      repo: "https://gitlab.com/yusufthebdev17/nft-marketplace",
+      repo: "https://github.com/yusufthebdev/nft-marketplace",
       contracts: [
         { name: "NFTMarketplace", address: "Verified Contract", explorer: "https://sepolia.basescan.org/address/0x40D5B718...f3F2ef984" }
       ]
@@ -71,13 +71,13 @@ export default function Portfolio() {
                 Contact Me
               </a>
               <a 
-                href="https://gitlab.com/yusufthebdev17"
+                href="https://github.com/yusufthebdev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 rounded-lg transition-all transform hover:scale-105 border border-white/20"
               >
                 <Github size={20} />
-                GitLab
+                GitHub
               </a>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function Portfolio() {
         {/* Social Links */}
         <div className="flex gap-6 mt-12 justify-center md:justify-start">
           <a 
-            href="https://twitter.com/yusufthebdev"
+            href="https://x.com/yusufthebdev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
@@ -111,7 +111,7 @@ export default function Portfolio() {
             <Mail size={24} />
           </a>
           <a 
-            href="https://gitlab.com/yusufthebdev17"
+            href="https://github.com/yusufthebdev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"

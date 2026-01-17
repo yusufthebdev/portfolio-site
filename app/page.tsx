@@ -134,7 +134,7 @@ export default function Portfolio() {
               { name: "Ethers.js", icon: "⚡" },
               { name: "React.js", icon: "⚛" },
               { name: "IPFS", icon: "📦" },
-              { name: "Vercel", icon: "▲" },
+              { name: "Next.js", icon: "▲" },
               { name: "Base", icon: "🔵" },
               { name: "Git", icon: "🔀" }
             ].map(tech => (

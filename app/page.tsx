@@ -43,6 +43,18 @@ export default function Portfolio() {
       contracts: [
         { name: "NFTMarketplace", address: "Verified Contract", explorer: "https://sepolia.basescan.org/address/0x40D5B718...f3F2ef984" }
       ]
+    },
+    {
+      id: 4,
+      title: "Crypto Prediction Market",
+      description: "A fully decentralized prediction market protocol that allows users to create and participate in crypto price prediction markets, provide liquidity, and earn reputation based on prediction accuracy.",
+      tech: ["Solidity", "Foundry", "Typescript", "Next.js", "Tailwind CSS"],
+      network: "Base Sepolia",
+      demo: "https://cryptopredict-three.vercel.app/",
+      repo: "https://github.com/yusufthebdev/prediction-market",
+      contracts: [
+        { name: "PredictionMarket", address: "Verified Contract", explorer: "https://sepolia.basescan.org/address/0x01A9D675A2c4CE3D3De34A122dF6435dE5068019" }
+      ]
     }
   ];
 
@@ -129,7 +141,9 @@ export default function Portfolio() {
             {[
               { name: "Solidity", icon: "◆" },
               { name: "Hardhat", icon: "⚒" },
+              { name: "Foundry", icon: "🔨" },
               { name: "JavaScript", icon: "JS" },
+              { name: "TypeScript", icon: "TS" },
               { name: "Tailwind CSS", icon: "🎨" },
               { name: "Ethers.js", icon: "⚡" },
               { name: "React.js", icon: "⚛" },
